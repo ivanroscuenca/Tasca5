@@ -3,12 +3,13 @@ package Serialitzar;
 import java.io.*;
 import java.util.Arrays;
 
-public class Original {
+public class Serialitzar {
     public static void main(String[] args) {
+        //Creem un objecte tipus empleat i el posem en un array anomenat personal
         Empleat[] personal = new Empleat[1];
         Empleat e1 = new Empleat("Ivan", 41, 1);
         personal[0] = e1;
-
+        //sempre que hi hagi un argument per commando
         if (args.length > 0) {
             //directori es el primer argument
             String nom_directori = args[0];
@@ -24,11 +25,11 @@ public class Original {
 
 //                Desserialitzar
 //                Creem objectInputStream i instanciem un nou objecte
-                ObjectInputStream readFile = new ObjectInputStream(new FileInputStream(directory));
-                //Emmagatzemem en altre array,fem casting i utilitzem readfile amb el mètode readObject
+            ObjectInputStream readFile = new ObjectInputStream(new FileInputStream(directory));
+            //Emmagatzemem en altre array,fem casting i utilitzem readfile amb el mètode readObject
                 Empleat[] personal2 = (Empleat[]) readFile.readObject();
-                //mostrem per pantalla el nou arrayList personal2
-                System.out.println(Arrays.toString(personal2));
+            //mostrem per pantalla el nou arrayList personal2 amb toString per comprobar
+            System.out.println(Arrays.toString(personal2));
 
             } catch (IOException | ClassNotFoundException e) {
                 throw new RuntimeException(e);
@@ -39,33 +40,31 @@ public class Original {
         }
 
     }
+    //La classe Empleat ha de ser Serializable
+    static class Empleat implements Serializable {
 
-}
+        private final String nom;
 
-//    static class Empleat implements Serializable {
-//
-//        private final String nom;
-//
-//        private final int edat;
-//
-//        private final int numEmpleat;
-//
-//        public Empleat(String nom, int edat, int numEmpleat){
-//            this.nom = nom;
-//            this.edat=edat;
-//            this.numEmpleat = numEmpleat;
-//
-//        }
-//
-//        @Override
-//        public String toString() {
-//            return "Empleat{" +
-//                    "nom='" + nom + '\'' +
-//                    ", edat=" + edat +
-//                    ", numEmpleat=" + numEmpleat +
-//                    '}';
-//        }
-//
-//    }
-//    }
+        private final int edat;
+
+        private final int numEmpleat;
+
+        public Empleat(String nom, int edat, int numEmpleat){
+            this.nom = nom;
+            this.edat=edat;
+            this.numEmpleat = numEmpleat;
+
+        }
+
+        @Override
+        public String toString() {
+            return "Empleat{" +
+                    "nom='" + nom + '\'' +
+                    ", edat=" + edat +
+                    ", numEmpleat=" + numEmpleat +
+                    '}';
+            }
+
+        }
+    }
 

@@ -1,5 +1,3 @@
-package ex2;
-
 import java.io.IOException;
 import java.io.File;
 import java.util.Arrays;

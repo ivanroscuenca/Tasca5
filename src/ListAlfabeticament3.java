@@ -4,7 +4,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Arrays;
 
-public class listAlfabeticament3 {
+public class ListAlfabeticament3 {
 //    Modifica l’exercici anterior. Ara, en lloc de mostrar el resultat per la pantalla,
 //    guarda el resultat en un fitxer TXT.
     public static void main(String[] args) throws IOException {
@@ -40,7 +40,7 @@ public class listAlfabeticament3 {
             //llavors s’ha de guardar en un fitxer anomenat listDirandFiles.txt, .
             try {
                 //Creem objecte fileWriter i bufferedWriter
-                FileWriter escritura = new FileWriter("/home/ivan/Escritorio/Tasca5/ex3/.txt", true);
+                FileWriter escritura = new FileWriter("/home/ivan/Escritorio/Tasca5/src/listDirandFiles.txt", true);
                 BufferedWriter bufferescritura = new BufferedWriter(escritura);
 
                 //Si es arxiu posem una F

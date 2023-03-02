@@ -1,11 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="39feac5e-7db1-4723-b679-09110d1c3571" name="Changes" comment="" />
+    <list default="true" id="39feac5e-7db1-4723-b679-09110d1c3571" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tasca5.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListAlfabeticament.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListAlfabeticament2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListAlfabeticament3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ListAlfabeticament4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serialitzar/Serialitzar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Serialitzar/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/list4.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2MP8btMhN507rKWEtpohUIu6cDS" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -16,9 +48,40 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "/home/ivan/Escritorio/Tasca5/src/Serialitzar"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="Serialitzar" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/Serialitzar" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/ex2" />
+      <recent name="$PROJECT_DIR$/src/ex1" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ex3" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ListAlfabeticament" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ListAlfabeticament" />
+      <module name="Tasca5" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ListAlfabeticament" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
