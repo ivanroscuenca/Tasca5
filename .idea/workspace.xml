@@ -4,21 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="39feac5e-7db1-4723-b679-09110d1c3571" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tasca5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListAlfabeticament.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListAlfabeticament2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListAlfabeticament3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ListAlfabeticament4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serialitzar/Serialitzar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Serialitzar/readme.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/list4.txt" afterDir="false" />
+    <list default="true" id="39feac5e-7db1-4723-b679-09110d1c3571" name="Changes" comment="TAsca 5 completa updated">
+      <change afterPath="$PROJECT_DIR$/src/Nivell2/Parametritzant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Serialitzar/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/readme.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,14 +34,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "/home/ivan/Escritorio/Tasca5/src/Serialitzar"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/ivan/Escritorio/Tasca5/src/Serialitzar&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="Serialitzar" />
@@ -61,6 +50,7 @@
       <recent name="$PROJECT_DIR$/src/Serialitzar" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/ex2" />
       <recent name="$PROJECT_DIR$/src/ex1" />
     </key>
@@ -91,6 +81,26 @@
       <option name="presentableId" value="Default" />
       <updated>1677657936959</updated>
     </task>
+    <task id="LOCAL-00001" summary="TAsca 5 completa">
+      <created>1677779869809</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1677779869809</updated>
+    </task>
+    <task id="LOCAL-00002" summary="TAsca 5 completa updated">
+      <created>1677779905489</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1677779905489</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="TAsca 5 completa" />
+    <MESSAGE value="TAsca 5 completa updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="TAsca 5 completa updated" />
   </component>
 </project>
